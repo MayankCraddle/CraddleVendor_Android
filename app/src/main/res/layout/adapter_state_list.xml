@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/rele_state"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_country_image"
+                android:layout_width="@dimen/_30sdp"
+                android:padding="@dimen/_3sdp"
+                android:layout_height="@dimen/_40sdp"/>
+            <com.cradlevendor.customui.CustomTextviewBold
+                android:layout_toRightOf="@+id/iv_country_image"
+                android:id="@+id/tv_country_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+               />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1ssp"
+            android:background="@color/colorLightWhite"
+            />
+    </LinearLayout>
+
+</layout>

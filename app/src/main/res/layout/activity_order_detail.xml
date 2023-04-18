@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:background="@drawable/received_order_top"/>
+                <RelativeLayout
+                    android:id="@+id/nav_top_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_back_order_details"
+                        android:layout_width="@dimen/_27sdp"
+                        android:layout_height="@dimen/_27sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/back_arrow" />
+
+                    <com.cradlevendor.customui.CustomTextviewBold
+                        android:id="@+id/tv_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/white"
+                        android:text="@string/order_detail" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_below="@+id/nav_top_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/whiteCream"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1ssp"
+                        android:background="@color/light_grey" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_10sdp"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <com.cradlevendor.customui.CustomTextviewBold
+                                    android:id="@+id/tvOderID"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="Order"/>
+
+                                <com.cradlevendor.customui.CustomTextView
+                                    android:id="@+id/tvCreateOn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/light_grey"
+                                    android:text="Cutomer Details:"/>
+
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                            <com.cradlevendor.customui.CustomTextviewBold
+                                android:id="@+id/tvOderState"
+                                android:visibility="visible"
+                                android:layout_alignParentEnd="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_9sdp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/black"
+                                android:text="Cutomer Details:"/>
+
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:padding="@dimen/_5sdp"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <com.cradlevendor.customui.CustomTextviewBold
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_11sdp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="@string/item" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp">
+
+                                <ImageView
+                                    android:id="@+id/iv_product_item"
+                                    android:layout_width="@dimen/_60sdp"
+                                    android:layout_height="@dimen/_60sdp"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_centerInParent="true"
+                                    android:layout_toRightOf="@+id/iv_product_item"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="@dimen/_10sdp">
+
+                                    <com.cradlevendor.customui.CustomTextView
+                                        android:id="@+id/tvProductName"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/_10sdp"
+                                        android:text="" />
+
+                                    <com.cradlevendor.customui.CustomTextView
+                                        android:id="@+id/tvProductQty"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_2sdp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/colorGreen"
+                                        android:textSize="@dimen/_9sdp"
+                                        android:text="" />
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <com.cradlevendor.customui.CustomTextviewBold
+                                            android:id="@+id/tvProductPriceWithQuantity"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:textColor="@color/black"
+                                            android:textSize="@dimen/_10sdp"
+                                            android:text="" />
+
+                                        <com.cradlevendor.customui.CustomTextviewBold
+                                            android:id="@+id/tvTotalPrice"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:textStyle="bold"
+                                            android:text=""
+                                            android:textColor="@color/colorGreen"
+                                            android:textSize="@dimen/_10sdp" />
+                                    </RelativeLayout>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_10sdp">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/_5sdp"
+                            android:layout_margin="@dimen/_5sdp">
+
+                            <com.cradlevendor.customui.CustomTextviewBold
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/payment_summary"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_11sdp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <com.cradlevendor.customui.CustomTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:text="@string/item_total" />
+
+                                <com.cradlevendor.customui.CustomTextviewBold
+                                    android:id="@+id/tvItemTotal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:textColor="@color/black"
+                                    android:layout_alignParentEnd="true"
+                                    android:text="" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <com.cradlevendor.customui.CustomTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:text="@string/delivery_fee" />
+
+                                <com.cradlevendor.customui.CustomTextviewBold
+                                    android:id="@+id/tvDeliveryFee"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:textColor="@color/black"
+                                    android:layout_alignParentEnd="true"
+                                    android:text="0.0" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <com.cradlevendor.customui.CustomTextviewBold
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textColor="@color/black"
+                                    android:text="@string/grant_total" />
+
+                                <com.cradlevendor.customui.CustomTextviewBold
+                                    android:id="@+id/tvGrantTotal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textColor="@color/black"
+                                    android:layout_alignParentEnd="true"
+                                    android:text="" />
+                            </RelativeLayout>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_10sdp">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/_10sdp"
+                            android:layout_margin="@dimen/_10sdp">
+
+                            <com.cradlevendor.customui.CustomTextviewBold
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:visibility="gone"
+                                android:textSize="@dimen/_11sdp"
+                                android:text="@string/customer_detail" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+                                <androidx.appcompat.widget.AppCompatImageView
+                                    android:id="@+id/tvCutomerImage"
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="@dimen/_30sdp" />
+
+                                <androidx.appcompat.widget.LinearLayoutCompat
+                                    android:layout_toEndOf="@+id/tvCutomerImage"
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <com.cradlevendor.customui.CustomTextviewBold
+                                        android:id="@+id/tvCustomerName"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/_10sdp" />
+
+                                    <com.cradlevendor.customui.CustomTextView
+                                        android:id="@+id/tvCustomerEmail"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="@dimen/_10sdp" />
+                                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1ssp"
+                                android:background="@color/light_grey" />
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <com.cradlevendor.customui.CustomTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/address_new"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:layout_weight="0.5" />
+
+                                <com.cradlevendor.customui.CustomTextviewBold
+                                    android:id="@+id/tvAddress"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_9sdp"
+                                    android:singleLine="true"
+                                    android:layout_weight="1.5" />
+
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <com.cradlevendor.customui.CustomTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/city"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:layout_weight="0.5" />
+
+                                <com.cradlevendor.customui.CustomTextviewBold
+                                    android:id="@+id/tvCity"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_15sdp"
+                                    android:layout_weight="1.5" />
+
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <com.cradlevendor.customui.CustomTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/pin_code_new"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:layout_weight="0.5" />
+
+                                <com.cradlevendor.customui.CustomTextviewBold
+                                    android:id="@+id/tvPinCode"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:singleLine="true"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_weight="1.5" />
+
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <com.cradlevendor.customui.CustomTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/payment"
+                                    android:textSize="@dimen/_9sdp"
+                                    android:layout_weight="0.5" />
+
+                                <com.cradlevendor.customui.CustomTextviewBold
+                                    android:id="@+id/tvPayment"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_weight="1.5" />
+
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/llAcceptOrder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:padding="@dimen/_10sdp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/rac_rounded">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/accept_btn_order_one" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:src="@drawable/reject_btn_order_one" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+    </ScrollView>
+
+</layout>

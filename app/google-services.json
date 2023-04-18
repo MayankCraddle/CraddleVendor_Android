@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "257538773212",
+    "firebase_url": "https://craddleapp-default-rtdb.firebaseio.com",
+    "project_id": "craddleapp",
+    "storage_bucket": "craddleapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257538773212:android:8f745e3fc450ca1a23e419",
+        "android_client_info": {
+          "package_name": "ltd.cradle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257538773212-mtdsfmebnpvptq90p889634ivfvhmg2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzDgYxLGs3DVpzehlRS1DLr13ip3FLHJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257538773212-mtdsfmebnpvptq90p889634ivfvhmg2v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "257538773212-dhhv90200gieij2kjup9rd667mlac2n4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.craddle.craddleVendor"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257538773212:android:3d850c2da619148123e419",
+        "android_client_info": {
+          "package_name": "ltd.cradlevendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257538773212-mtdsfmebnpvptq90p889634ivfvhmg2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzDgYxLGs3DVpzehlRS1DLr13ip3FLHJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257538773212-mtdsfmebnpvptq90p889634ivfvhmg2v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "257538773212-dhhv90200gieij2kjup9rd667mlac2n4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.craddle.craddleVendor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

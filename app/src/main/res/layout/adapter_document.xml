@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+    </data>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/rl_one"
+            android:padding="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/upload"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp">
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:id="@+id/iv_received_order"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/_30sdp"
+                    android:src="@drawable/file_upload" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/upload"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.cradlevendor.customui.CustomTextviewBold
+                    android:id="@+id/tvUploadDocument"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_11sdp"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <com.cradlevendor.customui.CustomTextviewBold
+                    android:id="@+id/tv_order_dis"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_9sdp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorGreen"
+                    android:text="Click to Upload" />
+            </LinearLayout>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:background="@color/whiteCream"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</layout>

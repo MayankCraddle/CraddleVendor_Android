@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/vendor_login_bg">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_27sdp"
+            android:src="@drawable/otp"/>
+        <com.cradlevendor.customui.CustomTextviewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textAlignment="center"
+            android:text="@string/enter_the_verification_code_we_just_sent_on_your_email_address"
+            android:textColor="@color/white"/>
+        <RelativeLayout
+            android:layout_marginTop="@dimen/_35sdp"
+             android:layout_width="match_parent"
+            android:layout_height="@dimen/_190sdp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:elevation="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_20sdp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_35sdp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/_37sdp"
+                            android:layout_height="@dimen/_37sdp"
+                            android:background="@drawable/shap_otp">
+
+                            <EditText
+                                android:id="@+id/edit_one"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:background="@null"
+                                android:textAlignment="center"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:layout_centerInParent="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12sdp"
+                                android:importantForAutofill="no"
+                                tools:ignore="LabelFor" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/_37sdp"
+                            android:layout_height="@dimen/_37sdp"
+                            android:layout_marginStart="@dimen/_7sdp"
+                            android:background="@drawable/shap_otp">
+
+                            <EditText
+                                android:id="@+id/edit_two"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:background="@null"
+                                android:maxLength="1"
+                                android:textAlignment="center"
+                                android:inputType="number"
+                                android:layout_centerInParent="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12sdp"
+                                android:importantForAutofill="no"
+                                tools:ignore="LabelFor" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/_37sdp"
+                            android:layout_height="@dimen/_37sdp"
+                            android:layout_marginStart="@dimen/_7sdp"
+                            android:background="@drawable/shap_otp">
+
+                            <EditText
+                                android:id="@+id/edit_three"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:background="@null"
+                                android:textAlignment="center"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:layout_centerInParent="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12sdp"
+                                android:importantForAutofill="no"
+                                tools:ignore="LabelFor" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/_37sdp"
+                            android:layout_height="@dimen/_37sdp"
+                            android:layout_marginStart="@dimen/_7sdp"
+                            android:background="@drawable/shap_otp">
+
+                            <EditText
+                                android:id="@+id/edit_four"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:background="@null"
+                                android:inputType="number"
+                                android:textAlignment="center"
+                                android:maxLength="1"
+                                android:layout_centerInParent="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12sdp"
+                                android:autofillHints=""
+                                tools:ignore="LabelFor" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/_37sdp"
+                            android:layout_height="@dimen/_37sdp"
+                            android:layout_marginStart="@dimen/_7sdp"
+                            android:background="@drawable/shap_otp">
+
+                            <EditText
+                                android:id="@+id/edit_five"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:background="@null"
+                                android:inputType="number"
+                                android:textAlignment="center"
+                                android:maxLength="1"
+                                android:layout_centerInParent="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12sdp"
+                                android:importantForAutofill="no"
+                                tools:ignore="LabelFor" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/_37sdp"
+                            android:layout_height="@dimen/_37sdp"
+                            android:layout_marginStart="@dimen/_7sdp"
+                            android:background="@drawable/shap_otp">
+
+                            <EditText
+                                android:id="@+id/edit_six"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:background="@null"
+                                android:textAlignment="center"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:layout_centerInParent="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12sdp"
+                                android:importantForAutofill="no"
+                                tools:ignore="LabelFor" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <com.cradlevendor.customui.CustomTextviewBold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/_13sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:text="@string/if_you_don_t_receive_code_resend"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/submit_button"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:elevation="@dimen/_10sdp"
+                android:src="@drawable/next_vendor" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

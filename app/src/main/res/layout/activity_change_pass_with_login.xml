@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/vendor_logo_bg">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/otp"/>
+        <com.cradlevendor.customui.CustomTextviewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textAlignment="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:text="@string/enter_your_old_password_and_desired_new_password"
+            android:textColor="@color/white"/>
+        <RelativeLayout
+            android:layout_marginTop="@dimen/_35sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_320sdp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_280sdp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:elevation="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_20sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.cradlevendor.customui.CustomTextviewBold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:text="@string/old_password"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_37sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:background="@drawable/shap_vendor_edit_txt"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_19sdp"
+                            android:layout_height="@dimen/_19sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:src="@drawable/lock_vendor" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatEditText
+                                android:id="@+id/old_pass"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_toStartOf="@+id/iv_user_password"
+                                android:background="@null"
+                                android:inputType="textPassword"
+                                android:gravity="center|start"
+                                android:imeOptions="actionNext"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:singleLine="true"
+                                android:textAlignment="viewStart"
+                                android:textSize="@dimen/_10ssp" />
+
+                            <ImageView
+                                android:id="@+id/iv_user_password"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="@dimen/_17sdp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:src="@drawable/password_hidden" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <com.cradlevendor.customui.CustomTextviewBold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="@string/new_password"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10ssp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_37sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:background="@drawable/shap_vendor_edit_txt"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_19sdp"
+                            android:layout_height="@dimen/_19sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:src="@drawable/lock_vendor" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatEditText
+                                android:id="@+id/new_pass"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_toStartOf="@+id/iv_user_password_new"
+                                android:background="@null"
+                                android:gravity="center|start"
+                                android:imeOptions="actionNext"
+                                android:inputType="textPassword"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:singleLine="true"
+                                android:textAlignment="viewStart"
+                                android:textSize="@dimen/_10ssp" />
+
+                            <ImageView
+                                android:id="@+id/iv_user_password_new"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="@dimen/_17sdp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:src="@drawable/password_hidden" />
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                    <com.cradlevendor.customui.CustomTextviewBold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:text="@string/confrim_password"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_37sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:background="@drawable/shap_vendor_edit_txt"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_19sdp"
+                            android:layout_height="@dimen/_19sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:src="@drawable/lock_vendor" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatEditText
+                                android:id="@+id/confrim_pass"
+                                android:inputType="textPassword"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_toStartOf="@+id/iv_user_password_confrim"
+                                android:background="@null"
+                                android:gravity="center|start"
+                                android:imeOptions="actionNext"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:singleLine="true"
+                                android:textAlignment="viewStart"
+                                android:textSize="@dimen/_10ssp" />
+
+                            <ImageView
+                                android:id="@+id/iv_user_password_confrim"
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_height="@dimen/_17sdp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:src="@drawable/password_hidden" />
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/iv_chang_pass"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:elevation="@dimen/_10sdp"
+                android:src="@drawable/next_vendor_new" />
+
+        </RelativeLayout>
+        <com.cradlevendor.customui.CustomTextviewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginTop="@dimen/_130sdp"
+            android:text="@string/allready_have_an_account_sign_in"/>
+
+    </LinearLayout>
+</layout>

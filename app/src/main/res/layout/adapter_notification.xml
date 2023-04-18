@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/rele_state"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_7ssp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_7sdp"
+            android:layout_marginEnd="@dimen/_7ssp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.cradlevendor.customui.CustomTextviewBold
+                    android:id="@+id/tvNoticationTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp"
+                    />
+                <com.cradlevendor.customui.CustomTextView
+                    android:id="@+id/tvNotificationTime"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_10sdp"
+                    >
+                </com.cradlevendor.customui.CustomTextView>
+
+            </RelativeLayout>
+
+
+            <com.cradlevendor.customui.CustomTextView
+                android:id="@+id/tvNotificationDis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_10sdp"
+                >
+            </com.cradlevendor.customui.CustomTextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1ssp"
+            android:background="@color/colorLightWhite"
+            />
+    </LinearLayout>
+
+</layout>

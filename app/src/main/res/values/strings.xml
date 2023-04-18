@@ -1,0 +1,346 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CraddleVendor</string>
+
+    <!-- USER BOTTOM TAB STRING-->
+    <string name="home">Home</string>
+    <string name="wishList">WishList</string>
+    <string name="blogs">Blogs</string>
+    <string name="account">Account</string>
+    <string name="category">Category</string>
+
+    //SRTING OF COUNTRY LIST
+    <string name="select_country">Select Country</string>
+    <string name="category_list">Category List</string>
+    <string name="product_list">Product List</string>
+    <string name="vendor_list">Vendor List</string>
+    <string name="product_details">Product Details</string>
+    <string name="cart_list">Cart List</string>
+    <string name="currency_symbol">₦</string>
+
+
+    //User Home screen
+    <string name="specialty_from_africa">Specialty From africa</string>
+    <string name="tea">Tea</string>
+    <string name="wish_list">Wish List</string>
+    <string name="products">PRODUCTS</string>
+    <string name="products_in">Product In </string>
+
+    <string name="local_products_manufacturing_in_country">Local Products Manufacturing in Country</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="major_export_market_segment">Major Export Market Segment</string>
+    <string name="prodcut_of_all_attraction_manufactured_in_country">Prodcut Of All Attraction Manufactured In Country</string>
+    <string name="agricultural_products_exported_from_country">Agricultural Products Exported From Country</string>
+    <string name="news_feed">NEWS FEED</string>
+    <string name="services">SERVICES</string>
+    <string name="innovation">INNOVATION</string>
+    //USER PRODUCT DETAILS SCREEN
+
+    <string name="description">Description</string>
+    <string name="vendor_details">Vendor details</string>
+    <string name="reding_reviews"><![CDATA[Ratings & Reviews]]></string>
+    <string name="retrun_policy">Retrun Policy</string>
+    <string name="p_similar_product">Similar Product</string>
+    <string name="p_on_sale">On Sale</string>
+    <string name="p_daily_need">Daily Need</string>
+    <string name="p_new_arrivals">New Arrivals</string>
+    <string name="selected_iteams">Selected Iteams</string>
+    <string name="checkout">Checkout</string>
+    <string name="cart">Cart</string>
+    <string name="loading">Loading</string>
+    <string name="other">Other</string>
+    <string name="item_added">Item added to cart successfully</string>
+
+    //String of User login
+    <string name="login">Login</string>
+    <string name="user">User</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account ? <font color='#007d43'>SIGN UP</font></string>
+
+    //STRING OF USER SIGN UP SCREEN
+    <string name="full_name">Full Name</string>
+    <string name="first_name">First Name</string>
+    <string name="email">Email ID</string>
+    <string name="email_phone_no">Email ID/Phone No</string>
+    <string name="email_phonno_or_emailid">Enter Email ID/Phone No</string>
+    <string name="emai_invalid">Enter Email</string>
+    <string name="email_new">EMAIL ID</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="business_name">Business Name</string>
+    <string name="confrim_password">Confirm Password</string>
+    <string name="business_address">Business Address</string>
+
+    <string name="p">Email</string>
+    <string name="allready_have_an_account_sign_in">Already have an account ? <font color='#007d43'>SIGN IN</font></string>
+
+
+    //Validation sinup screen
+
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="invalid_user">Enter User Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_phone_no">Enter Phone No.</string>
+    <string name="enter_valid_phone">Enter Valid Phone No.</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_country">Enter Country</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_landmark">Enter Landmark</string>
+    <string name="enter_bus_name">Enter Business Name</string>
+    <string name="enter_pass">Password should be minimum 7 digit</string>
+    <string name="enter_con">Enter Confrim  Password</string>
+    <string name="enter_bus_add">Enter Business Address</string>
+    <string name="pass_should_be">Password should be gratter then 7.</string>
+    <string name="pass_match">Password should be match.</string>
+    <string name="pass_validation">Password must be atleast of 8 characters, 1 alphabet and 1 special character.", title: "Weak Password !</string>
+    <string name="password_pattern">Password must be atleast of 8 characters, 1 alphabet and 1 special character.", title: "Weak Password !</string>
+    <string name="signup">Signup</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    //STRING OF OTP SCREEN
+    <string name="otp_verificatiion">OTP Verification</string>
+    <string name="otp_has_been_sent_to_your_registred_email_address_please_enter_it_blow">OTP has been sent to your registered email address.please enter it blow.</string>
+    <string name="continue1">Continue</string>
+    <string name="don_t_receive_the_otp_resend_otp">Don\'t receive the Otp? <font color='#007d43'>RESEND OTP</font></string>
+    <string name="verify_otp">Please enter verification pin ,Which is sent to your registered email id.</string>
+    <string name="forgot_password_">Forgot Password?</string>
+    <string name="submit">Submit</string>
+    <string name="subcate_list">SubCategory List</string>
+
+    //STRING OF FORGOT PASSWORD
+    <string name="enter_valid_email">Please enter valid email</string>
+    <string name="view_all">View All</string>
+    <string name="welcome_to_saharago">Welcome To SaharaGo</string>
+    <string name="buy_sell">Marketplace</string>
+    <string name="detail_product">Detail Product</string>
+    <string name="my_account">My Account</string>
+    <string name="my_address">My Address</string>
+    <string name="address">Address</string>
+
+    //STRING FORGOT PASS WITH LOGIN
+    <string name="old_password">Old Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_old_pass">Enter old password</string>
+    <string name="enter_new_pass">Enter new password</string>
+    <string name="enter_con_pass">Enter confirm password</string>
+
+    //STRING OF USER ACCOUNT
+    <string name="view_all_in_account">VIEW ALL</string>
+    <string name="add_review">ADD REVIEW</string>
+    <string name="my_review">My Review</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_or_reset_your_password">Change or Reset Your Password</string>
+    <string name="my_order">My Order</string>
+    <string name="change_now">CHANGE NOW</string>
+    <string name="log_out">Log Out</string>
+    <string name="please_enter_your_registered_email_well_send_you_link_to_reset_your_password">Please enter your registered email,well send you link to reset your password.</string>
+    <string name="otp">OTP</string>
+    <string name="new_password">New Password</string>
+    <string name="please_enter_otp_and_reset_your_password">Please enter OTP and reset your Password</string>
+
+    //STRING OF CHANGE PASSWORD
+    <string name="enter_otp">PleaseEnter otp</string>
+    <string name="enter_new_pasword">Please Enter new password</string>
+    <string name="enter_confrim_new_pasword">Please Enter confirm password</string>
+    <string name="password_vali">Password should minimun length 8.</string>
+    <string name="enter_match_password">Enter match password</string>
+
+    <string name="sussfully_change_password">password changed successfully</string>
+    <string name="sussfully_add_adress">Successfully add address</string>
+    <string name="media">Multimedia</string>
+    <string name="multimedia_new">Multimedia</string>
+    <string name="please_login_to_view_your_profile">Please Login to View your Profile</string>
+    <string name="start_selling">Start Selling</string>
+    <string name="hint">**********</string>
+    <string name="current_password">Current Password</string>
+    <string name="read_more">Read more</string>
+
+    //STRING OF ADD ADDRESS
+    <string name="mobile_number">Mobile Number</string>
+    <string name="save">Save</string>
+    <string name="add_new_address">Add New Address</string>
+    <string name="fill_the_details">Fill the Details</string>
+    <string name="mark_this_as_default_address">Mark this as Default Address</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="state">State</string>
+    <string name="locality">Locality</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="office">Office</string>
+    <string name="work">Work</string>
+
+    //NETWORK STRING
+    <string name="no_internet_connection">"No Internet Connection Available "</string>
+
+
+    //STRING OF ADDRESS LIST
+    <string name="please_select_an_option">Please Select an Option</string>
+    <string name="title">Title</string>
+    <string name="mark_as_default">Mark as Default</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="address_list">Address List</string>
+    <string name="last_name">Last Name</string>
+    <string name="type_of_address">Address Type</string>
+    <string name="save_address">Save Address</string>
+
+
+    //VALIDATION OF ADDRESS
+    <string name="We_will_be_soon">"We will be soon serving in \(country). Be in touch !"</string>
+    <string name="manage_address">Manage Address</string>
+    <string name="add">Add</string>
+    <string name="street_address">Street Address</string>
+    <string name="landmark">LandMark</string>
+
+    <string name="a_first_name">Please Enter first name</string>
+    <string name="a_last_name">Please Enter last name</string>
+    <string name="a_mobile_no">Please Enter mobile number</string>
+    <string name="a_mobile_email_id">Please Enter mobile No/EmaiD ID </string>
+    <string name="a_city">Please Enter city</string>
+    <string name="a_state">Please Eenter state</string>
+    <string name="a_address">Please Enter address</string>
+    <string name="edit_address">Edit Address</string>
+    <string name="a_zipcode">Please Enter zipcode</string>
+    <string name="zipcode">Zipcode</string>
+    <string name="a_country">Please Enter country</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="add_new_add">Add New Address</string>
+    <string name="add_address">Add  Address</string>
+    <string name="vendor_s_other_products">Vendor\'s Other Products</string>
+    <string name="write_review">Write Review</string>
+    <string name="facebook">facebook</string>
+    <string name="insta">instagram</string>
+    <string name="twitter">twitter</string>
+
+    //WRITE REVIEW SCREEN
+    <string name="what_do_you_think_of_this_product">What do you think of this product?</string>
+    <string name="what_would_you_like_to_share_with_us">What would you like to share with us?</string>
+    <string name="subject">Subject</string>
+    <string name="enter_your_commit">Enter your Comment</string>
+    <string name="type_your_commit">Type your Comment</string>
+    <string name="characters_remaining_54_150">Characters Remaining: 0 / 150</string>
+    <string name="submit_comment">Submit Comment</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="load_more">View More</string>
+    <string name="exporter">exporter</string>
+    <string name="explore">Explore</string>
+    <string name="manufacturer">manufacturer</string>
+    <string name="wholesaler">wholesaler</string>
+    <string name="notification">Notification</string>
+    <string name="search">Search</string>
+    <string name="what_do_you_want_to_search">What do you want to search</string>
+    <string name="products_new">Product</string>
+    <string name="vendor_new">Vendor</string>
+    <string name="maltimedia">Maltimedia</string>
+    <string name="new_products">New Products</string>
+    <string name="discounted_items">Discounted items</string>
+    <string name="not_now">Not Now</string>
+    <string name="request_for_sample">Request for sample</string>
+    <string name="on_sale_products">On-sale products</string>
+    <string name="go_open">GO Open</string>
+    <string name="vendor_detail">Vendor Detail</string>
+    <string name="choose_image">Image</string>
+    <string name="characters_remaining">Characters Remaining:</string>
+
+    //Welcome screen of string
+    <string name="login_as">Login AS</string>
+    <string name="please_select_user_type">Please Select User Type.</string>
+    <string name="fill_the_below_information_to_login_in">Fill the below information to \n Login In</string>
+    <string name="fill_the_below_information_to_sign_in">Fill the below information to \n Sign Up</string>
+    <string name="if_you_don_t_receive_code_resend">If you don\'t receive code! Resend</string>
+    <string name="enter_the_verification_code_we_just_sent_on_your_email_address">Enter the verification code we just sent on your email address.</string>
+    <string name="entet_the_email_address_associate_with_your_account">Enter the email address associate with your account</string>
+    <string name="otp_enter">Enter the otp  associate with your account</string>
+
+    //Vendor String
+    <string name="vendor_allready_have_an_account">Already have an account ? <font color='#007d43'>Login Now</font></string>
+    <string name="received">RECEIVED</string>
+    <string name="cancel_order">CANCEL ORDER</string>
+    <string name="processing">PROCESSING</string>
+    <string name="delivered">DELIVERED</string>
+    <string name="profile">PROFILE</string>
+    <string name="receivend_order">Received Order</string>
+    <string name="cancel_order_new">Cancel Order</string>
+    <string name="my_profile">My Profile</string>
+    <string name="change_password_vendor">Change Password</string>
+    <string name="multimedia">MULTIMEDIA</string>
+    <string name="type_something">type something</string>
+    <string name="marketplace">MARKETPLACE</string>
+    <string name="company_name">Company Name</string>
+    <string-array name="search_result">
+        <item>Vendor</item>
+        <item>Product</item>
+    </string-array>
+    <string name="chat_text">text</string>
+    <string name="chat_image">image</string>
+    <string name="chat_file">file</string>
+    <string name="message_send_from">Message sent from</string>
+    <string name="chat">Chat</string>
+    <string name="accept">Accept</string>
+    <string name="processing_order">Processing Order</string>
+    <string name="uploadDocument">Upload Document</string>
+    <string name="delivered_orders">Delivered Orders</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="item">Item</string>
+    <string name="payment_summary">Payment Summary</string>
+    <string name="item_total">Item total</string>
+    <string name="customer_detail">Customer Detail</string>
+    <string name="address_new">Address</string>
+    <string name="sahara_go">Craddle</string>
+    <string name="change_your_order_state">Change your order state</string>
+    <string name="dismiss_new">Dismiss</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="saharago">Craddle</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to LogOut</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="pin_code_new">Pin Code</string>
+    <string name="payment">Payment</string>
+    <string name="grant_total">Grant Total</string>
+    <string name="cancelled">Cancelled</string>
+
+    <string name="deactivate_account">Deactivate Account</string>
+    <string name="mobile_number_new">Mobile Number</string>
+    <string name="confirm_deactivation">CONFIRM DEACTIVATION</string>
+    <string name="confirm_delete">CONFIRM DELETE</string>
+    <string name="when_you_deactivate_the_account">When you deactivate the account</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="we_will_miss_you">We will miss you.</string>
+    <string name="you_won_t_be_able_to_access_your_wishlist">You won\'t be able to access your Wishlist.</string>
+    <string name="you_will_not_be_notified_about_updates_and_the_latest_offers_amp_discounts"><![CDATA[You will not be notified about updates and the latest offers & discounts.]]></string>
+    <string name="you_will_have_to_fill_in_your_details_while_checking_out_over_and_over_again">You will have to fill in your details while checking out over and over again.</string>
+    <string name="you_won_t_be_able_to_check_your_past_orders">You won\'t be able to check your past orders.</string>
+    <string name="how_do_i_reactivate_my_cradle_account">How do I reactivate my Craddle account?</string>
+    <string name="simply_contact_us_to_re_activate_your_account_your_account_data_will_be_fully_restored_default_settings_will_be_applied_and_you_will_be_subscribed_to_receive_promotional_emails_from_cradle">Simply contact us to re-activate your account. Your account data will be fully restored - default settings will be applied and you will be subscribed to receive promotional emails from Craddle.</string>
+    <string name="cradle_retains_your_account_data_for_you_to_conveniently_start_off_from_where_you_left_if_you_decide_to_reactivate_your_account">Craddle retains your account data for you to conveniently start off from where you left, if you decide to reactivate your account.</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="we_are_sorry_to_see_you_go">We are sorry to see you go!</string>
+    <string name="please_note_that_once_you_choose_to_delete_your_account_your_account_will_no_longer_be_available_to_you_and_you_will_not_be_able_to_activate_or_use_the_account_again">Please note that once you choose to delete your account, your account will no longer be available to you and you will not be able to activate or use the account again.</string>
+    <string name="lf_you_are_not_sure_about_deleting_your_account_you_may_instead_deactivate_our_account_when_you_deactivate_your_account_you_are_logged_out_of_your_cradle_account_your_public_profile_on_cradle_is_no_longer_visible_your_wishlist_items_are_no_longer_accessible_through_the_associated_public_hyperlink_you_will_be_unsubscribed_from_receiving_promotional_emails_from_cradle">lf you are not sure about deleting your account, you may instead deactivate our account. When you deactivate your account, you are logged out of your Craddle account, your public profile on Craddle is no longer visible, your wishlist items are no longer accessible through the associated public hyperlink, you will be unsubscribed from receiving promotional emails from Craddle</string>
+    <string name="if_you_wish_to_proceed_with_an_account_deletion_request_please_ensure_that_you_have_read_and_understood_the_following">If you wish to proceed with an account deletion request, please ensure that you have read and understood the following:</string>
+    <string name="there_are_no_pending_orders_cancellation_return_refund_or_other_requests">• There are no pending orders, cancellation, return, refund or other requests.</string>
+    <string name="you_have_exhausted_or_do_not_intend_to_use_supercoins_or_any_such_reward_points_associated_with_your_account_please_note_that_once_your_account_is_deleted_you_will_not_be_able_to_access_any_such_reward_points">• You have exhausted or do not intend to use SuperCoins or any such reward points associated with your account. Please note that once your account is deleted, you will not be able to access any such reward points.</string>
+    <string name="you_will_not_be_able_to_access_or_request_to_access_order_history_wishlists_saved_addresses_previous_orders_and_invoices_save_or_preferred_payment_methods_or_use_any_of_the_products_and_services_offered_by_cradle_and_will_have_to_create_a_new_account_to_use_products_and_services_offered_by_us">• You will not be able to access or request to access order history, wishlists, saved addresses, previous orders and invoices, save or preferred payment methods, or use any of the products and services offered by Craddle and will have to create a new account to use products and services offered by us.</string>
+    <string name="cradle_may_choose_to_refuse_deletion_of_your_account_in_case_you_have_any_grievances_related_to_pending_payments_to_your_orders_shipment_or_deliveries_credit_lines_etc">• Craddle may choose to refuse deletion of your account in case you have any grievances related to pending payments to your orders, shipment or deliveries, credit lines, etc.</string>
+    <string name="you_acknowledge_that_you_have_read_our_privacy_policy">• You acknowledge that you have read our Privacy Policy.</string>
+    <string name="cradle_may_choose_to_erase_all_the_data_and_products_of_the_vendor_if_they_deactivate_or_delete_their_account">• Craddle may choose to erase all the data and products of the vendor, if they deactivate or delete their account.</string>
+    <string name="comment_new">Comment</string>
+    <string name="deactivated">our account has been deactivated.</string>
+    <string name="your_account">Your account has been deactivated. Do you want to reactivate your account ?</string>
+
+    <string name="inter_password">Please inter password</string>
+    <string name="account_name">Account Name</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="bank_sort_code">Bank Sort Code</string>
+    <string name="fcmServerKey">AAAADdfkklY:APA91bGRdyBHhHx-ogSemZvRhsZfj6kTLw1ijPRF_ZcvlQEl7RdA6prHjCibyDVi42eYVLhDKYygPJaISDKw1ZPs_BLY5hCKZaV31tb-iZIbZuZ93ASxcZSso6mVtSJhctXwV4oudReI</string>
+    <string name="enter_your_old_password_and_desired_new_password">Enter your Old Password and desired new password.</string>
+
+
+</resources>

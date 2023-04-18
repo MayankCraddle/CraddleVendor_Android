@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/chat_header_top"
+            android:id="@+id/chat_header_layout"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_below="@id/chat_header_layout"
+            android:id="@+id/consult_fragment_rellayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+            <RelativeLayout
+                android:id="@+id/layoutBottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/chat_recyecler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/chat_message_send"
+                    android:nestedScrollingEnabled="false" />
+
+                <include
+                    android:id="@+id/chat_message_send"
+                    layout="@layout/chat_box_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

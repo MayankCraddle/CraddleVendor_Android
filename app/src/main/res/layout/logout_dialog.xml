@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/rlLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/_13ssp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            app:cardCornerRadius="@dimen/_7sdp">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.cradlevendor.customui.CustomTextviewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:text="@string/saharago"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sdp" />
+                <com.cradlevendor.customui.CustomTextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="@string/are_you_sure_you_want_to_logout"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.2sp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@color/gray"/>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:weightSum="2">
+                    <RelativeLayout
+                        android:id="@+id/rlYes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <com.cradlevendor.customui.CustomTextviewBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:padding="@dimen/_5sdp"
+                            android:text="@string/yes"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/_12sdp" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/rlNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <View
+                            android:layout_width="0.2sp"
+                            android:layout_height="match_parent"
+                            android:background="@color/gray"/>
+                        <com.cradlevendor.customui.CustomTextviewBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:text="@string/no"/>
+                    </RelativeLayout>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</layout>

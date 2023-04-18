@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/rl_open_chat"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_user"
+            android:src="@drawable/avatar"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp" />
+
+        <LinearLayout
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/iv_user"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.cradlevendor.customui.CustomTextviewBold
+                android:textSize="@dimen/_10sdp"
+                android:id="@+id/tv_user_name"
+                android:text="User"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.cradlevendor.customui.CustomTextView
+                android:id="@+id/tv_last_msg"
+                android:textSize="@dimen/_9sdp"
+                android:text="Hi"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
